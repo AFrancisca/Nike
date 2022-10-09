@@ -1,0 +1,117 @@
+body{
+    background-color: #ffe61b;
+    position: relative;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+    display: inline block;
+}
+#title{
+    text-align: center;
+}
+.logo1{
+    width: 6%;
+    padding-top: 0px;
+    position: absolute;
+    right: 85%;
+    margin-top: 4px;
+    margin-bottom: 80px;
+    z-index: -1;
+    top: 10%;
+
+
+}
+.product{
+    text-decoration: none;
+    margin: 10px 20px;
+    position: relative;
+    right: 70%;
+    color: #FCFFE7;
+    background-color:#ffe61b;
+    border-style: none;
+
+}
+#top-container{
+    margin:0 auto 0 auto;
+    padding: 0px;
+    position: relative;
+    display:inline-block;
+    width:100%;
+    height: 10%;
+}
+.menu{
+    display: inline-block;
+    position: absolute;
+    right: 2%;
+    width: 50%;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 20px; 
+}
+a{
+    text-decoration: none;
+    margin: 10px 20px;
+    color: #FCFFE7;
+}
+#middle-container{
+    position: relative;
+    justify-content: center;
+}
+.shoes{
+    transform: rotate(335deg);
+    position:absolute;
+    right:10%;
+    margin-top: -1rem; 
+    width: 700px;
+}
+h2{
+    color: #224B0C;
+    font-size: 60px;
+}
+h3{
+    color: #224B0C;
+    padding-top: 30px;
+    line-height: 1;
+}
+#bottom-container{
+    margin: 50px;
+    padding-left: 85px;
+    display: block;
+    position: relative;
+}
+.icon{
+    padding-left: 8rem;
+    position: absolute;
+    margin-top: -2rem;
+    color: #ffc23c;
+}
+
+.btn {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: -12rem;
+    background: #090a0a;
+    background-image: -webkit-linear-gradient(top, #090a0a, #030303);
+    background-image: -moz-linear-gradient(top, #090a0a, #030303);
+    background-image: -ms-linear-gradient(top, #090a0a, #030303);
+    background-image: -o-linear-gradient(top, #090a0a, #030303);
+    background-image: linear-gradient(to bottom, #090a0a, #030303);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
